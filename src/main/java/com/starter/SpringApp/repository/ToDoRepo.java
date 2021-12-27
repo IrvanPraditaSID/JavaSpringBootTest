@@ -1,4 +1,4 @@
-package com.starter.SpringApp.Repo;
+package com.starter.SpringApp.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 

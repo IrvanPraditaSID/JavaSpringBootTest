@@ -2,6 +2,9 @@ package com.starter.SpringApp.data;
 
 import org.springframework.data.annotation.Id;
 
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
 public class ToDo {
 
 	@Id
@@ -10,11 +13,6 @@ public class ToDo {
 	private String title;
 
 	private Boolean completed;
-
-	public ToDo(String title, Boolean completed) {
-		this.title = title;
-		this.completed = completed;
-	}
 
 	public String getId() {
 		return id;

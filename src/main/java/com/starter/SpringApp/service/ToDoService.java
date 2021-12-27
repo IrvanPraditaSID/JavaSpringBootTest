@@ -5,9 +5,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.starter.SpringApp.Repo.ToDoRepo;
 import com.starter.SpringApp.data.ToDo;
 import com.starter.SpringApp.exception.EntityNotFoundException;
+import com.starter.SpringApp.repository.ToDoRepo;
 
 @Service
 public class ToDoService {
